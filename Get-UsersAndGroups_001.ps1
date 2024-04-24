@@ -5,10 +5,10 @@
 
 <#
 .SYNOPSIS
-Retreves users, and group membership for each user, from Active Directory.
+Retrieves users, and group membership for each user, from Active Directory.
 
 .DESCRIPTION
-Retreves users, and group membership for each user, from Active Directory. Note that each user's primary group is included in the output, and caching is used to improve performance.
+Retrieves users, and group membership for each user, from Active Directory. Note that each user's primary group is included in the output, and caching is used to improve performance.
 
 .PARAMETER SearchLocation
 Distinnguished name (DN) of where to begin searching for user accounts; e.g. "OU=Information Technology,DC=fabrikam,DC=com". If you omit this parameter, the default is the current domain (e.g., "DC=fabrikam,DC=com").
